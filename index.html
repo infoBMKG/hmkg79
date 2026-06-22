@@ -364,7 +364,7 @@
           <ellipse cx="30" cy="18" rx="14" ry="8" fill="rgba(255,255,255,0.2)"/>
           <path d="M22 18 Q26 14 30 16 Q34 18 38 15" stroke="white" stroke-width="1.5" fill="none"/>
         </svg> -->
-         <img src="logo_hmkg.png">
+         <img src="logo_hmkg.png" style="width:30px; height:30px;">
       </div>
       <div class="nav-logo-text">HMKG <span>HUT ke-79 · 2026</span></div> 
     </a>
@@ -459,7 +459,7 @@
           </div>
           <div class="float-card card-br">
             <div class="fc-icon white">📅</div>
-            <div class="fc-info"><span class="fc-val">Agt 2026</span><span class="fc-lab">Tanggal Event</span></div>
+            <div class="fc-info"><span class="fc-val">Juli 2026</span><span class="fc-lab">Tanggal Event</span></div>
           </div>
         </div>
       </div>
@@ -616,12 +616,13 @@
       <div class="footer-brand">
         <div class="footer-logo-row" style="margin-bottom:1rem">
           <div class="footer-logo-box">
-            <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+            <!-- <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" width="36" height="36">
               <circle cx="30" cy="30" r="28" fill="#1A499A"/>
               <path d="M10 35 Q20 20 30 28 Q40 36 50 25" stroke="white" stroke-width="3" fill="none" stroke-linecap="round"/>
               <path d="M8 42 Q18 32 30 38 Q42 44 52 35" stroke="#8DC341" stroke-width="3" fill="none" stroke-linecap="round"/>
               <ellipse cx="30" cy="18" rx="14" ry="8" fill="rgba(255,255,255,0.2)"/>
-            </svg>
+            </svg> -->
+            <img src="logo_hmkg.png" style="width:30px; height:30px;">
           </div>
           <div class="footer-brand-text">HMKG<span>HUT ke-79 · 2026</span></div>
         </div>
@@ -720,7 +721,7 @@ function toggleMenu() { document.getElementById('mobileMenu').classList.toggle('
 function closeMenu() { document.getElementById('mobileMenu').classList.remove('open'); }
 
 // COUNTDOWN
-const targetDate = new Date('2026-08-21T08:00:00');
+const targetDate = new Date('2026-07-21T08:00:00');
 function updateCountdown() {
   const now = new Date();
   const diff = targetDate - now;
@@ -878,14 +879,14 @@ document.getElementById('lightbox').addEventListener('click', e => { if(e.target
 
 // TIMELINE
 const jadwalData = [
-  { day:'10', month:'Jul', time:'08.00 WIB', name:'Pembukaan Pendaftaran', loc:'Online — hmkg79.bmkg.go.id', status:'upcoming' },
-  { day:'01', month:'Agt', time:'23.59 WIB', name:'Batas Akhir Pendaftaran', loc:'Online', status:'upcoming' },
-  { day:'05', month:'Agt', time:'09.00 WIB', name:'Technical Meeting', loc:'Zoom / Google Meet', status:'upcoming' },
-  { day:'14', month:'Agt', time:'08.00 WIB', name:'Opening Ceremony & Seminar Nasional', loc:'Auditorium BMKG, Jakarta', status:'highlight' },
-  { day:'15', month:'Agt', time:'08.00 WIB', name:'Pelaksanaan Lomba Hari 1', loc:'BMKG Pusat & Online', status:'upcoming' },
-  { day:'16', month:'Agt', time:'08.00 WIB', name:'Pelaksanaan Lomba Hari 2', loc:'BMKG Pusat & Online', status:'upcoming' },
-  { day:'18', month:'Agt', time:'10.00 WIB', name:'Pengumuman Pemenang', loc:'Live Streaming', status:'upcoming' },
-  { day:'21', month:'Agt', time:'09.00 WIB', name:'Awarding Ceremony & Penutupan', loc:'Auditorium BMKG, Jakarta', status:'highlight' },
+  { day:'10', month:'Jun', time:'08.00 WIB', name:'Pembukaan Pendaftaran', loc:'Online — hmkg79.bmkg.go.id', status:'upcoming' },
+  { day:'01', month:'Jul', time:'23.59 WIB', name:'Batas Akhir Pendaftaran', loc:'Online', status:'upcoming' },
+  { day:'05', month:'Jul', time:'09.00 WIB', name:'Technical Meeting', loc:'Zoom / Google Meet', status:'upcoming' },
+  { day:'14', month:'Jul', time:'08.00 WIB', name:'Opening Ceremony & Seminar Nasional', loc:'Auditorium BMKG, Jakarta', status:'highlight' },
+  { day:'15', month:'Jul', time:'08.00 WIB', name:'Pelaksanaan Lomba Hari 1', loc:'BMKG Pusat & Online', status:'upcoming' },
+  { day:'16', month:'Jul', time:'08.00 WIB', name:'Pelaksanaan Lomba Hari 2', loc:'BMKG Pusat & Online', status:'upcoming' },
+  { day:'18', month:'Jul', time:'10.00 WIB', name:'Pengumuman Pemenang', loc:'Live Streaming', status:'upcoming' },
+  { day:'21', month:'Jul', time:'09.00 WIB', name:'Awarding Ceremony & Penutupan', loc:'Auditorium BMKG, Jakarta', status:'highlight' },
 ];
 const tl = document.getElementById('timelineEl');
 jadwalData.forEach((j, i) => {
