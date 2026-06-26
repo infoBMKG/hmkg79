@@ -789,14 +789,27 @@ animateParticles();
 
 // LOMBA DATA
 const lombaData = [
-  { icon: '📸', cat: 'Seni Visual', title: 'Fotografi', desc: 'Abadikan keindahan alam dan fenomena cuaca Indonesia melalui lensa kameramu. Tampilkan cerita di balik setiap cuaca.' },
-  { icon: '🎨', cat: 'Desain Grafis', title: 'Poster Digital', desc: 'Ciptakan karya poster digital yang informatif dan menarik tentang iklim, cuaca, dan geofisika. Kreativitas tanpa batas!' },
-  { icon: '🎬', cat: 'Multimedia', title: 'Video Kreatif', desc: 'Buat video pendek kreatif yang mengedukasi masyarakat tentang meteorologi, klimatologi, dan geofisika.' },
-  { icon: '📝', cat: 'Akademik', title: 'Karya Tulis Ilmiah', desc: 'Tuangkan gagasan inovatifmu dalam karya tulis yang komprehensif tentang sains atmosfer dan geofisika.' },
-  { icon: '💡', cat: 'Inovasi', title: 'Inovasi Teknologi', desc: 'Kembangkan solusi teknologi cerdas untuk pemantauan cuaca, prediksi iklim, atau sistem peringatan dini bencana.' },
-  { icon: '📊', cat: 'Data Science', title: 'Kompetisi Data Cuaca', desc: 'Analisis dataset cuaca BMKG dan ciptakan visualisasi atau prediksi yang bermakna menggunakan machine learning.' },
-  { icon: '🎤', cat: 'Komunikasi', title: 'Debat Ilmiah', desc: 'Adu argumen ilmiah tentang perubahan iklim, kebijakan cuaca, dan masa depan sains atmosfer Indonesia.' },
-  { icon: '🌱', cat: 'Lingkungan', title: 'Esai Perubahan Iklim', desc: 'Ungkapkan pemikiranmu tentang dampak perubahan iklim dan solusi berbasis sains untuk masa depan yang lebih baik.' },
+ { icon: '🏸', cat: 'Olahraga', title: 'Lomba Bulu Tangkis', desc: 'Pertandingan bulu tangkis antar pegawai dan unit kerja BMKG, mengusung sportivitas dan kebersamaan dalam perayaan HUT HMKG ke-79.' },
+  { icon: '🏓', cat: 'Olahraga', title: 'Lomba Tenis Meja', desc: 'Kompetisi tenis meja terbuka untuk seluruh pegawai BMKG sebagai bagian dari rangkaian olahraga HUT HMKG ke-79.' },
+  { icon: '♟️', cat: 'Olahraga', title: 'Lomba Catur', desc: 'Adu strategi dan ketenangan berpikir dalam turnamen catur antar pegawai dan unit kerja BMKG.' },
+  { icon: '🎮', cat: 'Hiburan', title: 'Lomba E-Sport', desc: 'Turnamen game kompetitif bagi pegawai muda BMKG, menghadirkan keseruan dan kekompakan tim dalam suasana santai.' },
+  { icon: '🎤', cat: 'Hiburan', title: 'Lomba Karaoke / BMKG Idol', desc: 'Unjuk bakat menyanyi bagi pegawai BMKG dalam kompetisi karaoke yang penuh semangat dan keceriaan.' },
+  { icon: '🛡️', cat: 'Teknologi', title: 'Lomba Cyber Security', desc: 'Kompetisi keamanan siber yang menguji kemampuan pegawai dalam mengidentifikasi dan menangani ancaman digital.' },
+  { icon: '👨‍👩‍👧‍👦', cat: 'Keluarga', title: 'Lomba Family HMKG', desc: 'Rangkaian permainan keluarga yang melibatkan pegawai beserta keluarga, mempererat kebersamaan di lingkungan BMKG.' },
+  { icon: '🥎', cat: 'Olahraga Tradisional', title: 'Lomba Bakiak dan Balap Karung', desc: 'Permainan tradisional khas perayaan kemerdekaan yang menghadirkan keseruan dan kekompakan antar tim.' },
+  { icon: '📱', cat: 'Konten Digital', title: 'Lomba Konten TikTok', desc: 'Ajang kreativitas konten video pendek bertema BMKG, meteorologi, klimatologi, dan geofisika untuk media sosial.' },
+  { icon: '🎣', cat: 'Hiburan', title: 'Lomba Mancing Mania', desc: 'Kegiatan memancing santai sebagai sarana refreshing dan kebersamaan antar pegawai BMKG.' },
+  { icon: '🎙️', cat: 'Komunikasi', title: 'Lomba Master of Ceremony', desc: 'Kompetisi kepemimpinan acara yang menguji keterampilan public speaking dan keberanian tampil di depan umum.' },
+  { icon: '🏃', cat: 'Olahraga', title: 'Lomba Virtual Run', desc: 'Lari virtual yang dapat diikuti pegawai BMKG dari berbagai lokasi, mendukung gaya hidup sehat dan aktif.' },
+  { icon: '📊', cat: 'Desain Grafis', title: 'Lomba Infografis MKG', desc: 'Visualisasikan data dan informasi seputar meteorologi, klimatologi, dan geofisika dalam desain infografis yang menarik.' },
+  { icon: '🎬', cat: 'Multimedia', title: 'Lomba Video Compro Unit Kerja', desc: 'Produksi video company profile yang menampilkan keunikan dan capaian masing-masing unit kerja BMKG.' },
+  { icon: '📖', cat: 'Keagamaan', title: 'Lomba MTQ', desc: 'Rangkaian lomba bernuansa keagamaan dalam semangat Musabaqah Tilawatil Quran — meliputi Hifdzil Quran, MTQ, dan Adzan, sebagai bagian dari syiar dan kebersamaan pegawai BMKG.' },
+  { icon: '✍️', cat: 'Akademik', title: 'Lomba Penulisan Artikel MKG Populer', desc: 'Tuangkan gagasan tentang meteorologi, klimatologi, dan geofisika dalam artikel populer yang mudah dipahami masyarakat luas.' },
+  { icon: '⚽', cat: 'Olahraga', title: 'Mini Soccer', desc: 'Pertandingan sepak bola mini antar unit kerja BMKG yang sarat semangat sportivitas dan kerja sama tim.' },
+  { icon: '🏀', cat: 'Olahraga', title: 'Basket', desc: 'Turnamen bola basket antar pegawai dan unit kerja BMKG dalam rangkaian olahraga HUT HMKG ke-79.' },
+  { icon: '🏐', cat: 'Olahraga', title: 'Volley Ball', desc: 'Pertandingan bola voli yang menghadirkan semangat juang dan kekompakan antar tim pegawai BMKG.' },
+  { icon: '🎭', cat: 'Hiburan', title: 'Stand Up Comedy', desc: 'Unjuk kemampuan komedi tunggal yang menghibur sekaligus menyelipkan kisah keseharian dunia BMKG.' },
+  { icon: '🌸', cat: 'Dharma Wanita', title: 'Lomba DWP', desc: 'Rangkaian kegiatan Dharma Wanita Persatuan BMKG yang menumbuhkan kreativitas, kebersamaan, dan kepedulian kesehatan — meliputi Senam Kreasi, Lomba Keterampilan Karyawan/ti, Lomba Tenan Sehat, dan Yel-yel DWP.' },
 ];
 const grid = document.getElementById('lombaGrid');
 lombaData.forEach((l, i) => {
