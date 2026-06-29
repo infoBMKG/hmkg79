@@ -2345,7 +2345,9 @@
 
       <div id="modalDesc" class="modal-desc"></div>
 
-      <button class="modal-btn">Daftar Sekarang</button>
+      <a id="modalLink" class="modal-btn" href="#" target="_blank" rel="noopener noreferrer">
+        Daftar Sekarang
+      </a>
 
     </div>
   </div>
@@ -2454,13 +2456,15 @@
         cat: 'Olahraga',
         title: 'Lomba Bulu Tangkis',
         flyer: 'assets/flyer/lomba bulu tangkis.png',
+        link: '',
         desc: 'Pertandingan bulu tangkis antar pegawai dan unit kerja BMKG, mengusung sportivitas dan kebersamaan dalam perayaan HUT HMKG ke-79.'
       },
       {
         icon: '🏓',
         cat: 'Olahraga',
         title: 'Lomba Tenis Meja',
-        flyer: 'assets/flyer/lomba tenis meja.png',
+        flyer: 'assets/flyer/tenis_meja.png',
+        link: '',
         desc: 'Kompetisi tenis meja terbuka untuk seluruh pegawai BMKG sebagai bagian dari rangkaian olahraga HUT HMKG ke-79.'
       },
       {
@@ -2468,6 +2472,7 @@
         cat: 'Olahraga',
         title: 'Lomba Catur',
         flyer: 'assets/flyer/lomba catur.png',
+        link: '',
         desc: 'Adu strategi dan ketenangan berpikir dalam turnamen catur antar pegawai dan unit kerja BMKG.'
       },
       {
@@ -2475,6 +2480,7 @@
         cat: 'Hiburan',
         title: 'Lomba E-Sport',
         flyer: 'assets/flyer/lomba e-sport.png',
+        link: '',
         desc: 'Turnamen game kompetitif bagi pegawai muda BMKG, menghadirkan keseruan dan kekompakan tim dalam suasana santai.'
       },
       {
@@ -2482,6 +2488,7 @@
         cat: 'Hiburan',
         title: 'Lomba Karaoke / BMKG Idol',
         flyer: 'assets/flyer/lomba karaoke bmkg idol.png',
+        link: '',
         desc: 'Unjuk bakat menyanyi bagi pegawai BMKG dalam kompetisi karaoke yang penuh semangat dan keceriaan.'
       },
       {
@@ -2489,6 +2496,7 @@
         cat: 'Teknologi',
         title: 'Lomba Cyber Security',
         flyer: 'assets/flyer/lomba cyber security.png',
+        link: '',
         desc: 'Kompetisi keamanan siber yang menguji kemampuan pegawai dalam mengidentifikasi dan menangani ancaman digital.'
       },
       {
@@ -2496,6 +2504,7 @@
         cat: 'Keluarga',
         title: 'Lomba Family HMKG',
         flyer: 'assets/flyer/lomba family hmkg.png',
+        link: '',
         desc: 'Rangkaian permainan keluarga yang melibatkan pegawai beserta keluarga, mempererat kebersamaan di lingkungan BMKG.'
       },
       {
@@ -2503,6 +2512,7 @@
         cat: 'Olahraga Tradisional',
         title: 'Lomba Bakiak dan Balap Karung',
         flyer: 'assets/flyer/lomba bakiak dan balap karung.png',
+        link: '',
         desc: 'Permainan tradisional khas perayaan kemerdekaan yang menghadirkan keseruan dan kekompakan antar tim.'
       },
       {
@@ -2510,6 +2520,7 @@
         cat: 'Konten Digital',
         title: 'Lomba Konten TikTok',
         flyer: 'assets/flyer/lomba konten tiktok.png',
+        link: '',
         desc: 'Ajang kreativitas konten video pendek bertema BMKG, meteorologi, klimatologi, dan geofisika untuk media sosial.'
       },
       {
@@ -2517,6 +2528,7 @@
         cat: 'Hiburan',
         title: 'Lomba Mancing Mania',
         flyer: 'assets/flyer/lomba mancing mania.png',
+        link: '',
         desc: 'Kegiatan memancing santai sebagai sarana refreshing dan kebersamaan antar pegawai BMKG.'
       },
       {
@@ -2524,6 +2536,7 @@
         cat: 'Komunikasi',
         title: 'Lomba Master of Ceremony',
         flyer: 'assets/flyer/lomba master of ceremony.png',
+        link: '',
         desc: 'Kompetisi kepemimpinan acara yang menguji keterampilan public speaking dan keberanian tampil di depan umum.'
       },
       {
@@ -2531,6 +2544,7 @@
         cat: 'Olahraga',
         title: 'Lomba Virtual Run',
         flyer: 'assets/flyer/lomba virtual run.png',
+        link: '',
         desc: 'Lari virtual yang dapat diikuti pegawai BMKG dari berbagai lokasi, mendukung gaya hidup sehat dan aktif.'
       },
       {
@@ -2538,6 +2552,7 @@
         cat: 'Desain Grafis',
         title: 'Lomba Infografis MKG',
         flyer: 'assets/flyer/lomba infografis mkg.png',
+        link: '',
         desc: 'Visualisasikan data dan informasi seputar meteorologi, klimatologi, dan geofisika dalam desain infografis yang menarik.'
       },
       {
@@ -2545,6 +2560,7 @@
         cat: 'Multimedia',
         title: 'Lomba Video Compro Unit Kerja',
         flyer: 'assets/flyer/lomba video compro unit kerja.png',
+        link: '',
         desc: 'Produksi video company profile yang menampilkan keunikan dan capaian masing-masing unit kerja BMKG.'
       },
       {
@@ -2552,34 +2568,39 @@
         cat: 'Keagamaan',
         title: 'Lomba MTQ',
         flyer: 'assets/flyer/lomba mtq.png',
-        desc: 'Rangkaian lomba bernuansa keagamaan dalam semangat Musabaqah Tilawatil Quran — meliputi Hifdzil Quran, MTQ, dan Adzan, sebagai bagian dari syiar dan kebersamaan pegawai BMKG.'
+        link: '',
+        desc: 'Rangkaian lomba bernuansa keagamaan dalam semangat Musabaqah Tilawatil Quran.'
       },
       {
         icon: '✍️',
         cat: 'Akademik',
         title: 'Lomba Penulisan Artikel MKG Populer',
         flyer: 'assets/flyer/lomba penulisan artikel mkg populer.png',
-        desc: 'Tuangkan gagasan tentang meteorologi, klimatologi, dan geofisika dalam artikel populer yang mudah dipahami masyarakat luas.'
+        link: '',
+        desc: 'Tuangkan gagasan tentang meteorologi, klimatologi, dan geofisika dalam artikel populer.'
       },
       {
         icon: '⚽',
         cat: 'Olahraga',
         title: 'Mini Soccer',
         flyer: 'assets/flyer/mini soccer.png',
-        desc: 'Pertandingan sepak bola mini antar unit kerja BMKG yang sarat semangat sportivitas dan kerja sama tim.'
+        link: '',
+        desc: 'Pertandingan sepak bola mini antar unit kerja BMKG.'
       },
       {
         icon: '🏀',
         cat: 'Olahraga',
         title: 'Basket',
         flyer: 'assets/flyer/basket.png',
-        desc: 'Turnamen bola basket antar pegawai dan unit kerja BMKG dalam rangkaian olahraga HUT HMKG ke-79.'
+        link: '',
+        desc: 'Turnamen bola basket antar pegawai dan unit kerja BMKG.'
       },
       {
         icon: '🏐',
         cat: 'Olahraga',
         title: 'Volley Ball',
         flyer: 'assets/flyer/volley_ball.jpg',
+        link: '',
         desc: 'Pertandingan bola voli yang menghadirkan semangat juang dan kekompakan antar tim pegawai BMKG.'
       },
       {
@@ -2587,6 +2608,7 @@
         cat: 'Hiburan',
         title: 'Stand Up Comedy',
         flyer: 'assets/flyer/stand up comedy.png',
+        link: '',
         desc: 'Unjuk kemampuan komedi tunggal yang menghibur sekaligus menyelipkan kisah keseharian dunia BMKG.'
       },
       {
@@ -2594,19 +2616,20 @@
         cat: 'Dharma Wanita',
         title: 'Lomba DWP',
         flyer: 'assets/flyer/lomba dwp.png',
-        desc: 'Rangkaian kegiatan Dharma Wanita Persatuan BMKG yang menumbuhkan kreativitas, kebersamaan, dan kepedulian kesehatan — meliputi Senam Kreasi, Lomba Keterampilan Karyawan/ti, Lomba Tenan Sehat, dan Yel-yel DWP.'
+        link: '',
+        desc: 'Rangkaian kegiatan Dharma Wanita Persatuan BMKG yang menumbuhkan kreativitas, kebersamaan, dan kepedulian kesehatan.'
       }
     ];
     const grid = document.getElementById('lombaGrid');
     lombaData.forEach((l, i) => {
       grid.innerHTML += `
-  <div class="lomba-card" data-aos="fade-up" data-aos-delay="${i * 60}" onclick="openModal(${i})">
-    <div class="lc-icon">${l.icon}</div>
-    <div class="lc-badge">${l.cat}</div>
-    <div class="lc-title">${l.title}</div>
-    <div class="lc-desc">${l.desc}</div>
-    <div class="lc-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#182168" stroke-width="3"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
-  </div>`;
+        <div class="lomba-card" data-aos="fade-up" data-aos-delay="${i * 60}" onclick="openModal(${i})">
+          <div class="lc-icon">${l.icon}</div>
+          <div class="lc-badge">${l.cat}</div>
+          <div class="lc-title">${l.title}</div>
+          <div class="lc-desc">${l.desc}</div>
+          <div class="lc-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#182168" stroke-width="3"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        </div>`;
     });
 
     function openModal(i) {
@@ -2625,10 +2648,36 @@
       document.getElementById('modalCat').textContent = l.cat;
       document.getElementById('modalTitle').textContent = l.title;
       document.getElementById('modalDesc').textContent = l.desc;
-
       document.getElementById('modalOverlay').classList.add('open');
+
+      const btn = document.getElementById("modalLink");
+
+      if (l.link) {
+        btn.href = l.link;
+        btn.style.pointerEvents = "auto";
+        btn.style.opacity = "1";
+        btn.textContent = "Daftar Sekarang";
+      } else {
+        btn.href = "#";
+        btn.style.pointerEvents = "none";
+        btn.style.opacity = ".5";
+        btn.textContent = "Pendaftaran Belum Dibuka";
+      }
     }
 
+    function closeModal(event, force = false) {
+      const overlay = document.getElementById('modalOverlay');
+
+      if (force) {
+        overlay.classList.remove('open');
+        return;
+      }
+
+      // Tutup hanya jika klik area gelap (overlay)
+      if (event.target === overlay) {
+        overlay.classList.remove('open');
+      }
+    }
     // GALLERY
     const galleryData = [
       { cat: 'pembukaan', label: 'Upacara Pembukaan', color: '#182168', h: 280 },
