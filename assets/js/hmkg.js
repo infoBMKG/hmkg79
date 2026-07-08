@@ -209,7 +209,7 @@ AOS.init({ duration: 700, once: true, offset: 60 });
         icone: 'assets/icon/Icon HMKG 2026 - Video Compro.png',
         cat: 'Multimedia',
         title: 'Lomba Video Compro Unit Kerja',
-        flyer: 'assets/flyer/lomba video compro unit kerja.png',
+        flyer: 'assets/flyer/compro.png',
         link: '',
         desc: 'Produksi video company profile yang menampilkan keunikan dan capaian masing-masing unit kerja BMKG.'
       },
