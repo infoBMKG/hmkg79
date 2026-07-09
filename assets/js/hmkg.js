@@ -163,7 +163,7 @@ const lombaData = [
     icon: "🎮",
     icone: "assets/icon/Icon HMKG 2026 - E-Sport.png",
     cat: "Hiburan",
-    title: "Lomba E-Sport",
+    title: "Lomba E-Sports",
     flyer: "assets/flyer/esport.png",
     link: "https://link.bmkg.go.id/hmkg-esports26",
     desc: "Turnamen game kompetitif bagi pegawai muda BMKG, menghadirkan keseruan dan kekompakan tim dalam suasana santai.",
