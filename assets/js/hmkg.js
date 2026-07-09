@@ -511,7 +511,7 @@ const jadwalData = [
     day: "21",
     month: "Jul",
     time: "09.00 WIB",
-    name: "Lomba Masak Eksebisi Eselon 1 dan 2",
+    name: "Lomba Masak Eksebisi Eselon 1 dan 2 , Bazar HMKG",
     loc: "Kantor BMKG Pusat",
     status: "upcoming",
   },
