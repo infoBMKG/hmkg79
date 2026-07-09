@@ -423,10 +423,10 @@ function closeModal(event, force = false) {
 }
 // GALLERY
 const galleryData = [
-  { cat: "pembukaan", label: "Upacara Pembukaan", color: "#182168", h: 280 },
-  { cat: "seminar", label: "Seminar Nasional", color: "#1A499A", h: 200 },
+  { cat: "upacara", label: "Upacara Pembukaan", color: "#182168", h: 280 },
+  { cat: "pembukaan", label: "Seminar Nasional", color: "#1A499A", h: 200 },
   { cat: "lomba", label: "Kompetisi Fotografi", color: "#4D99D3", h: 240 },
-  { cat: "pameran", label: "Pameran Teknologi", color: "#8DC341", h: 180 },
+  { cat: "penutupan", label: "Pameran Teknologi", color: "#8DC341", h: 180 },
   {
     cat: "dokumentasi",
     label: "Dokumentasi Lapangan",
