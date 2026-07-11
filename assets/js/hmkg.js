@@ -255,7 +255,7 @@ const lombaData = [
     cat: "Multimedia",
     title: "Lomba Video Compro Unit Kerja",
     flyer: "assets/flyer/compro.png",
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSec-IjdmxRllJfzKZcbrfcV0Z31IQcSAADLOXBzQVPHOWAoBQ/viewform",
     desc: "Produksi video company profile yang menampilkan keunikan dan capaian masing-masing unit kerja BMKG.",
   },
   {
