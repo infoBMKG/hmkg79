@@ -209,8 +209,8 @@ const lombaData = [
     icone: "assets/icon/Icon HMKG 2026 - Konten Tiktok.png",
     cat: "Konten Digital",
     title: "Lomba Konten TikTok",
-    flyer: "assets/flyer/lomba konten tiktok.png",
-    link: "",
+    flyer: "assets/flyer/tiktok.png",
+    link: "https://link.bmkg.go.id/lombatiktokbmkg",
     desc: "Ajang kreativitas konten video pendek bertema BMKG, meteorologi, klimatologi, dan geofisika untuk media sosial.",
   },
   {
