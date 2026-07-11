@@ -138,7 +138,7 @@ const lombaData = [
     cat: "Olahraga",
     title: "Lomba Bulu Tangkis",
     flyer: "assets/flyer/badminton.png",
-    link: "wa.me/+6281283819267",
+    link: "wa.me/+6282186511727",
     desc: "Pertandingan bulu tangkis antar pegawai dan unit kerja BMKG, mengusung sportivitas dan kebersamaan dalam perayaan HUT HMKG ke-79.",
   },
   {
