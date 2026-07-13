@@ -192,7 +192,7 @@ const lombaData = [
     cat: "Keluarga",
     title: "Lomba Family HMKG",
     flyer: "assets/flyer/family.png",
-    link: "https://link.bmkg.go.id/surveifamhmkg2026 ",
+    link: "https://link.bmkg.go.id/registrasifamhmkg2026",
     desc: "Rangkaian permainan keluarga yang melibatkan pegawai beserta keluarga, mempererat kebersamaan di lingkungan BMKG.",
   },
   {
