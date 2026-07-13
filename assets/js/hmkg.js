@@ -245,8 +245,8 @@ const lombaData = [
     icone: "assets/icon/Icon HMKG 2026 - Infografis.png",
     cat: "Desain Grafis",
     title: "Lomba Infografis MKG",
-    flyer: "assets/flyer/lomba infografis mkg.png",
-    link: "",
+    flyer: "assets/flyer/infografis.png",
+    link: "https://link.bmkg.go.id/infografishmkg",
     desc: "Visualisasikan data dan informasi seputar meteorologi, klimatologi, dan geofisika dalam desain infografis yang menarik.",
   },
   {
