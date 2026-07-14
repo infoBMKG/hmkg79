@@ -182,8 +182,8 @@ const lombaData = [
     icone: "assets/icon/Icon HMKG 2026 - Cyber Security.png",
     cat: "Teknologi",
     title: "Lomba Cyber Security",
-    flyer: "assets/flyer/lomba cyber security.png",
-    link: "",
+    flyer: "assets/flyer/cyber.png",
+    link: "https://link.bmkg.go.id/joincyberclash26",
     desc: "Kompetisi keamanan siber yang menguji kemampuan pegawai dalam mengidentifikasi dan menangani ancaman digital.",
   },
   {
