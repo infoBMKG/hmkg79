@@ -200,8 +200,8 @@ const lombaData = [
     icone: "assets/icon/Icon HMKG 2026 - Bakiak & Balap karung.png",
     cat: "Olahraga Tradisional",
     title: "Lomba Bakiak dan Balap Karung",
-    flyer: "assets/flyer/lomba bakiak dan balap karung.png",
-    link: "",
+    flyer: "assets/flyer/balapkarung.png",
+    link: "https://link.bmkg.go.id/bakiakkarunghmkg2026",
     desc: "Permainan tradisional khas perayaan kemerdekaan yang menghadirkan keseruan dan kekompakan antar tim.",
   },
   {
@@ -227,8 +227,8 @@ const lombaData = [
     icone: "assets/icon/Icon HMKG 2026 - MC.png",
     cat: "Komunikasi",
     title: "Lomba Master of Ceremony",
-    flyer: "assets/flyer/lomba master of ceremony.png",
-    link: "",
+    flyer: "assets/flyer/mcflyer.png",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfgWvbm-mqcLxZTsSarSSGLU1J_I9h79H1ZDEYCfo6PWtY76Q/viewform",
     desc: "Kompetisi kepemimpinan acara yang menguji keterampilan public speaking dan keberanian tampil di depan umum.",
   },
   {
@@ -324,7 +324,7 @@ const lombaData = [
   },
   {
     icon: "🍽️",
-    icone: "assets/icon/Icon & Mascot HMKG 2026-Lomba Kantin by DWP.png", 
+    icone: "assets/icon/Icon & Mascot HMKG 2026-Lomba Kantin by DWP.png",
     cat: "Dharma Wanita",
     title: "Lomba Kantin by DWP",
     flyer: "assets/flyer/kantin.png",
