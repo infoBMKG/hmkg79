@@ -308,7 +308,7 @@ const lombaData = [
     icone: "assets/icon/Icon HMKG 2026 - Stand Up Comedy.png",
     cat: "Hiburan",
     title: "Stand Up Comedy",
-    flyer: "assets/flyer/stand up comedy.png",
+    flyer: "assets/flyer/standup.png",
     link: "https://forms.gle/enhEeu87WruKT5Dw9",
     desc: "Unjuk kemampuan komedi tunggal yang menghibur sekaligus menyelipkan kisah keseharian dunia BMKG.",
   },
