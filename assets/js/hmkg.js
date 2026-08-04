@@ -505,7 +505,7 @@ const jadwalData = [
     time: "08.00 WIB",
     name: "Pembukaan Kegiatan HMKG ke 79",
     loc: "Kantor Pusat BMKG",
-    status: "upcoming",
+    status: "Done",
   },
   {
     day: "21",
@@ -513,7 +513,7 @@ const jadwalData = [
     time: "09.00 WIB",
     name: "Lomba Masak Eksebisi Eselon 1 dan 2 , Bazar HMKG",
     loc: "Kantor BMKG Pusat",
-    status: "upcoming",
+    status: "Done",
   },
   {
     day: "22",
@@ -521,7 +521,7 @@ const jadwalData = [
     time: "08.00 WIB",
     name: "Jalan Sehat & Senam Bersama",
     loc: "Kantor Pusat BMKG",
-    status: "upcoming",
+    status: "Done",
   },
   {
     day: "22",
@@ -529,7 +529,7 @@ const jadwalData = [
     time: "09.00 WIB",
     name: "Bazar dan Hiburan",
     loc: "Kantor Pusat BMKG",
-    status: "upcoming",
+    status: "Done",
   },
 
   {
@@ -574,7 +574,7 @@ Object.entries(grouped).forEach(([tanggal, items]) => {
                         ${
                           j.status === "highlight"
                             ? "⭐ Acara Utama"
-                            : "📌 Upcoming"
+                            : "📌 Meriah"
                         }
                     </span>
 
